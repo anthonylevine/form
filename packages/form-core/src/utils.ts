@@ -223,7 +223,7 @@ interface SyncValidatorArrayPartialOptions<T> {
   validators?: T
 }
 
-interface SyncValidator<T> {
+export interface SyncValidator<T> {
   cause: ValidationCause
   validate: T
 }
